@@ -85,6 +85,7 @@ section.social-media {
 }
 .social-media a {
 
+  width: max-content;
   user-select: none;
 
 }
