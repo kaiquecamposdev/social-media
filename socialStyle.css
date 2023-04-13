@@ -1,0 +1,42 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+
+  display: flex;
+  flex-direction: column;
+
+}
+::-webkit-scrollbar {
+
+  display: none;
+
+  margin: 0;
+  padding: 0;
+
+}
+img {
+
+ flex: 1;
+
+}
+
+a {
+
+  background-color: rgb(96, 4, 254);
+
+  display: block;
+  padding: 20px;
+
+  color: #fff;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-weight: bolder;
+
+}
