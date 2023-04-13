@@ -59,11 +59,12 @@ iframe#tela {
 }
 section.social-media {
 
-
+  max-width: max-content;
 
   display: grid;
   gap: 10px;
 
+  margin: 0;
   padding-top: 10px;
   padding-left: 10px;
 
@@ -98,6 +99,11 @@ section.social-media {
   box-sizing: border-box;
 
   box-shadow: 5px 5px 6px 3px #00000071;
+
+  user-select: none;
+
+}
+.social-media a:active {
 
   user-select: none;
 
