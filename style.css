@@ -85,6 +85,8 @@ section.social-media {
 }
 .social-media a {
 
+  border-radius: 50%;
+
   width: max-content;
   user-select: none;
 
